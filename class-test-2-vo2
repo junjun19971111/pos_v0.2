@@ -1,7 +1,7 @@
 
-1.根据输入信息建立对象数组    15min
+1.建立对象数组,计算conut    15min
 
-Input  barcodeArry : [string]
+Input  barcodeArry : [string],  loadAllItems:[object]
 Output itemArry: [objcet]      		{      		
 						barcode: string,
 						name: string,
