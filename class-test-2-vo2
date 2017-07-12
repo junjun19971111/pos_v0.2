@@ -1,22 +1,31 @@
-﻿1.根据输入信息建立对象数组    15min
+
+1.根据输入信息建立对象数组    15min
 
 Input  barcodeArry : [string]
-Output wareArry: [objcet]
+Output itemArry: [objcet]      {   barcode: string,
+						name: string,
+						unit: string,
+						price: float,
+						tol_price: null,
+					      count: null（在建立对象数组的时候，count会被更新）		
+					  }
+
 //  添加新属性 tol_price (小计)
 
 2.写函数求每个对象的 属性 小计   7min 
 
-Input  wareArry: [object]
-Output wareArry: [object]
+Input  itemArry: [object]
+Output itemArry: [object]  //toa_price 得到更新
 
 3.计算总价                   5min
 
-Input wareArry: [object]
+Input itemArry: [object]
 Output allPrice: Number
 
 4.打印
 
-Input wareArry:[object]  allPrice:Number
+Input itemArry:[object]  allPrice:Number
+      
 
 Output  result: string
 
