@@ -1,5 +1,5 @@
 
-1.建立对象数组,计算conut    15min
+1.建立对象数组,计算conut       15min
 
 Input  barcodeArry : [string],  loadAllItems:[object]
 Output itemArry: [objcet]      		{      		
@@ -18,12 +18,12 @@ Output itemArry: [objcet]      		{
 Input  itemArry: [object]
 Output itemArry: [object]  //toa_price 得到更新
 
-3.计算总价                   5min
+3.计算总价                    5min
 
 Input itemArry: [object]
 Output allPrice: Number
 
-4.打印
+4.打印                       5min
 
 Input itemArry:[object]  allPrice:Number
       
